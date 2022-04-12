@@ -7,25 +7,25 @@
 */
 int main(void)
 {
-        int f1, f2, f3, i, a, b;
+int f1, f2, f3, i, a, b;
 
-        i = 1;
-        f1 = 1;
-        f2 = 2;
-        a = 2;
-        b = 2;
+i = 1;
+f1 = 1;
+f2 = 2;
+a = 2;
+b = 2;
 
-        while (i <= 30)
-        {
-        f3 = f1 + f2;
-        i++;
-        f1 = f2;
-        f2 = f3;
-        if (f3 % b == 0)
-        {
-        a = a + f3;
-        }
-        }
-        printf("%d\n", a);
-        return (0);
+while (i <= 30)
+{
+f3 = f1 + f2;
+i++;
+f1 = f2;
+f2 = f3;
+if (f3 % b == 0)
+{
+a = a + f3;
+}
+}
+printf("%d\n", a);
+return (0);
 }
