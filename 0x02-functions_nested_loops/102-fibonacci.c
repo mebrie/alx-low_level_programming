@@ -9,9 +9,7 @@ int main(void)
 {
 long double f1 = 1, f2 = 1, f3;
 int i;
-
 i = 1;
-
 printf("%.Lf, ", f2);
 while (i <= 49)
 {
@@ -22,7 +20,7 @@ f1 = f2;
 f2 = f3;
 if (i != 50)
 {
-        printf(", ");
+printf(", ");
 }
 }
 putchar('\n');
